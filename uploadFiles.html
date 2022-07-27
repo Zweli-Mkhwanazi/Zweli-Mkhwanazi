@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Upload Support Documents{% endblock %} 
+{% block content %}
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col">
+            <h1>Upload Documents</h1>
+            <hr>
+
+            <form action="/Upload" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Select document</label>
+                    <div class="custom-file">
+                        <input type="file" required class="custom-file-input" name="document" id="document">
+                        <label class="custom-file-label" for="document">Choose a file...</label>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Upload</button>
+                <br/> 
+                <br/>
+
+                <button class="btn btn-primary" type="submit" onclick="window.location.href='/Apply'">Proceed</button>
+            </form> <!--the enctype allows form data and file data to the server-->
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
