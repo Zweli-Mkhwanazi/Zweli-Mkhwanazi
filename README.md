@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @Zweli-Mkhwanazi
-- 👀 I’m interested in Data Science
 - 🌱 I’m currently doing my Bachelors Degree in Information Communications Technology
 - 📫 How to reach me:- find me on LinkedIn: Zwelibanzi Gift Mkhwanazi
 
